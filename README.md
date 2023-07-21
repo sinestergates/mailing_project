@@ -1,7 +1,5 @@
 # Mailing Project
 
-Из доп задач выполнены пункты: 12,5,3
-
 
 ## Getting started
 
