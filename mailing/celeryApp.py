@@ -13,4 +13,4 @@ app.autodiscover_tasks()
 @app.task()
 def task_test():
     time.sleep(20)
-    print('11111111121111111111111111111111111111')
+    
