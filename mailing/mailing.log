@@ -1,0 +1,112 @@
+2023-07-20T08:39:01.735999+0300 INFO <QuerySet [{'status': 'accepted', 'malling': 1, 'total': 5}]>
+2023-07-20T08:40:00.933570+0300 INFO Update client id - 7
+2023-07-20T08:40:00.936090+0300 INFO Update client id - 8
+2023-07-20T08:40:00.938481+0300 INFO Update client id - 9
+2023-07-20T08:40:00.940709+0300 INFO Update client id - 10
+2023-07-20T08:43:34.291512+0300 INFO Create mailing id - 2
+2023-07-20T08:43:34.346677+0300 INFO Create task mailing start in - 2023-07-17T21:53:59+03:00
+2023-07-20T08:43:34.348736+0300 INFO Create task Celery id -e727f878-8708-4f0d-9287-f6b802335ba1
+2023-07-20T08:43:34.354106+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (1)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.355524+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (2)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.356599+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (3)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.357742+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (4)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.358708+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (5)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.360275+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (6)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.363222+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (7)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.363742+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (8)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.364214+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (9)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.376075+0300 INFO Create message object in db id - 7
+2023-07-20T08:43:34.371074+0300 INFO Create message object in db id - 6
+2023-07-20T08:43:34.377723+0300 INFO Create data to an external api- {'id': 7, 'phone': 79605284468, 'text': 'test message'}
+2023-07-20T08:43:34.377925+0300 INFO Create data to an external api- {'id': 6, 'phone': 79192582246, 'text': 'test message'}
+2023-07-20T08:43:34.366392+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (10)>, 'message': 'test message', 'id_mailing': 2}
+2023-07-20T08:43:34.379865+0300 INFO Create message object in db id - 8
+2023-07-20T08:43:34.380201+0300 INFO Create data to an external api- {'id': 8, 'phone': 69605284412, 'text': 'test message'}
+2023-07-20T08:43:34.386275+0300 INFO Create message object in db id - 9
+2023-07-20T08:43:34.387536+0300 INFO Create data to an external api- {'id': 9, 'phone': 79062346025845, 'text': 'test message'}
+2023-07-20T08:43:34.391768+0300 INFO Create message object in db id - 10
+2023-07-20T08:43:34.392930+0300 INFO Create data to an external api- {'id': 10, 'phone': 79062346025845, 'text': 'test message'}
+2023-07-20T08:43:34.395290+0300 INFO Create message object in db id - 11
+2023-07-20T08:43:34.395757+0300 INFO Create data to an external api- {'id': 11, 'phone': 79062346025845, 'text': 'test message'}
+2023-07-20T08:43:34.400879+0300 INFO Create message object in db id - 12
+2023-07-20T08:43:34.401173+0300 INFO Create data to an external api- {'id': 12, 'phone': 896052823444, 'text': 'test message'}
+2023-07-20T08:43:34.417586+0300 INFO Create message object in db id - 13
+2023-07-20T08:43:34.417794+0300 INFO Create data to an external api- {'id': 13, 'phone': 8960423522312, 'text': 'test message'}
+2023-07-20T08:43:34.422889+0300 INFO Create message object in db id - 14
+2023-07-20T08:43:34.423069+0300 INFO Create data to an external api- {'id': 14, 'phone': 79066025875, 'text': 'test message'}
+2023-07-20T08:43:34.427612+0300 INFO Create message object in db id - 15
+2023-07-20T08:43:34.427843+0300 INFO Create data to an external api- {'id': 15, 'phone': 79066025845, 'text': 'test message'}
+2023-07-20T08:43:34.783844+0300 INFO Return answer is ok message id - 9
+2023-07-20T08:43:34.788130+0300 INFO Message id - 9 change status accepted
+2023-07-20T08:43:34.815607+0300 INFO Return answer is ok message id - 6
+2023-07-20T08:43:34.823169+0300 INFO Message id - 6 change status accepted
+2023-07-20T08:43:34.829502+0300 INFO Return answer is ok message id - 14
+2023-07-20T08:43:34.833161+0300 INFO Return answer is ok message id - 8
+2023-07-20T08:43:34.836796+0300 INFO Return answer is ok message id - 13
+2023-07-20T08:43:34.840461+0300 INFO Return answer is ok message id - 11
+2023-07-20T08:43:34.845649+0300 INFO Return answer is ok message id - 7
+2023-07-20T08:43:34.849104+0300 INFO Return answer is ok message id - 12
+2023-07-20T08:43:34.850986+0300 INFO Return answer is ok message id - 10
+2023-07-20T08:43:34.853608+0300 INFO Return answer is ok message id - 15
+2023-07-20T08:43:34.856072+0300 INFO Message id - 14 change status accepted
+2023-07-20T08:43:34.857075+0300 INFO Message id - 7 change status accepted
+2023-07-20T08:43:34.861894+0300 INFO Message id - 13 change status accepted
+2023-07-20T08:43:34.874196+0300 INFO Message id - 15 change status accepted
+2023-07-20T08:43:34.875050+0300 INFO Message id - 12 change status accepted
+2023-07-20T08:43:34.883536+0300 INFO Message id - 11 change status accepted
+2023-07-20T08:43:34.892785+0300 INFO Message id - 8 change status accepted
+2023-07-20T08:43:34.899050+0300 INFO Message id - 10 change status accepted
+2023-07-20T08:44:42.955080+0300 INFO Create mailing id - 3
+2023-07-20T08:44:43.011975+0300 INFO Create task mailing start in - 2023-07-17T21:53:59+03:00
+2023-07-20T08:44:43.014018+0300 INFO Create task Celery id -0fec14f8-18bb-4dc2-9d0e-cdb5208b31cc
+2023-07-20T08:44:43.019725+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (1)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.020124+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (2)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.021437+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (3)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.024639+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (4)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.025804+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (5)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.027542+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (6)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.028719+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (7)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.029993+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (8)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.031440+0300 INFO Create message object in db id - 16
+2023-07-20T08:44:43.032071+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (9)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.032904+0300 INFO Run function send_message_from_api kwargs - {'client': <Client: Client object (10)>, 'message': 'test message', 'id_mailing': 3}
+2023-07-20T08:44:43.033771+0300 INFO --- 0.018170833587646484 seconds ---
+2023-07-20T08:44:43.034087+0300 INFO Create data to an external api- {'id': 16, 'phone': 79066025875, 'text': 'test message'}
+2023-07-20T08:44:43.039870+0300 INFO Create message object in db id - 17
+2023-07-20T08:44:43.040677+0300 INFO Create data to an external api- {'id': 17, 'phone': 79605284468, 'text': 'test message'}
+2023-07-20T08:44:43.046600+0300 INFO Create message object in db id - 18
+2023-07-20T08:44:43.047342+0300 INFO Create data to an external api- {'id': 18, 'phone': 79062346025845, 'text': 'test message'}
+2023-07-20T08:44:43.054702+0300 INFO Create message object in db id - 19
+2023-07-20T08:44:43.055059+0300 INFO Create data to an external api- {'id': 19, 'phone': 79062346025845, 'text': 'test message'}
+2023-07-20T08:44:43.060984+0300 INFO Create message object in db id - 20
+2023-07-20T08:44:43.061368+0300 INFO Create data to an external api- {'id': 20, 'phone': 8960423522312, 'text': 'test message'}
+2023-07-20T08:44:43.065181+0300 INFO Create message object in db id - 21
+2023-07-20T08:44:43.065505+0300 INFO Create data to an external api- {'id': 21, 'phone': 896052823444, 'text': 'test message'}
+2023-07-20T08:44:43.072204+0300 INFO Create message object in db id - 22
+2023-07-20T08:44:43.072506+0300 INFO Create data to an external api- {'id': 22, 'phone': 79062346025845, 'text': 'test message'}
+2023-07-20T08:44:43.085785+0300 INFO Create message object in db id - 23
+2023-07-20T08:44:43.085980+0300 INFO Create data to an external api- {'id': 23, 'phone': 79066025845, 'text': 'test message'}
+2023-07-20T08:44:43.089779+0300 INFO Create message object in db id - 24
+2023-07-20T08:44:43.089999+0300 INFO Create data to an external api- {'id': 24, 'phone': 79192582246, 'text': 'test message'}
+2023-07-20T08:44:43.093202+0300 INFO Create message object in db id - 25
+2023-07-20T08:44:43.093441+0300 INFO Create data to an external api- {'id': 25, 'phone': 69605284412, 'text': 'test message'}
+2023-07-20T08:44:43.272017+0300 INFO Return answer is ok message id - 17
+2023-07-20T08:44:43.274931+0300 INFO Message id - 17 change status accepted
+2023-07-20T08:44:43.277683+0300 INFO Return answer is ok message id - 16
+2023-07-20T08:44:43.280204+0300 INFO Message id - 16 change status accepted
+2023-07-20T08:44:43.314129+0300 INFO Return answer is ok message id - 18
+2023-07-20T08:44:43.316661+0300 INFO Message id - 18 change status accepted
+2023-07-20T08:44:43.319678+0300 INFO Return answer is ok message id - 19
+2023-07-20T08:44:43.322595+0300 INFO Message id - 19 change status accepted
+2023-07-20T08:44:43.336467+0300 INFO Return answer is ok message id - 22
+2023-07-20T08:44:43.338375+0300 INFO Return answer is ok message id - 25
+2023-07-20T08:44:43.341272+0300 INFO Message id - 22 change status accepted
+2023-07-20T08:44:43.343965+0300 INFO Message id - 25 change status accepted
+2023-07-20T08:44:43.345953+0300 INFO Return answer is ok message id - 20
+2023-07-20T08:44:43.348378+0300 INFO Message id - 20 change status accepted
+2023-07-20T08:44:43.350706+0300 INFO Return answer is ok message id - 23
+2023-07-20T08:44:43.352617+0300 INFO Return answer is ok message id - 24
+2023-07-20T08:44:43.354701+0300 INFO Message id - 23 change status accepted
+2023-07-20T08:44:43.358062+0300 INFO Message id - 24 change status accepted
+2023-07-20T08:44:43.364289+0300 INFO Return answer is ok message id - 21
+2023-07-20T08:44:43.367972+0300 INFO Message id - 21 change status accepted
