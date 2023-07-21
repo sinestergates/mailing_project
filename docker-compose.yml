@@ -1,0 +1,28 @@
+services:
+  web-app:
+    build:
+      context: .
+    ports:
+      - "8800:8800"
+    volumes:
+      - ./mailing:/mailing
+    command: >
+      sh -c "python3 manage.py runserver 0.0.0.0:8800"
+
+  redis:
+    image: redis:7.0.12-alpine
+    hostname: redis
+
+
+  celery_server:
+    build:
+      context: .
+    hostname: celery_server
+    entrypoint: celery
+      -A mailing.celeryApp.app worker --loglevel=info
+    volumes:
+      - ./mailing:/mailing
+    links:
+      - redis
+    depends_on:
+      - redis
